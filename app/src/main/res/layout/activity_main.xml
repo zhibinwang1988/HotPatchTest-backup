@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.firststep.mike.hotpatchtest.MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_replace_method"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="方法替换"/>
+    <Button
+        android:id="@+id/btn_replace_class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="类替换"/>
+
+    <Button
+        android:id="@+id/btn_replace_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="string替换"/>
+    <Button
+        android:id="@+id/btn_replace_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="布局替换"/>
+    <Button
+        android:id="@+id/btn_replace_so"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="so替换(no)"/>
+
+    <TextView
+        android:id="@+id/tv_show_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="wait for command"/>
+
+
+    <Button
+        android:id="@+id/btn_run"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="执行"/>
+
+</LinearLayout>
